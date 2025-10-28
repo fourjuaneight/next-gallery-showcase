@@ -36,7 +36,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="border-t py-6 md:px-8 flex items-center justify-center w-full">
         <p className="text-center text-sm leading-loose text-muted-foreground">
-          Built by AREA44. The source code is available on{" "}
+          The source code is available on{" "}
           <Link
             href={siteConfig.links.github}
             target="_blank"

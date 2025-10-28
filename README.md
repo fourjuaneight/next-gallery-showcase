@@ -7,8 +7,8 @@ Next Station Starter is an image gallery starter built with [Next.js](https://ne
 To run the application locally, make sure you have Node.js v22+ installed on your machine.
 
 ```bash
-git clone https://github.com/AREA44/next-station-starter
-cd next-station-starter
+git clone https://github.com/AREA44/next-gallery-showcase
+cd next-gallery-showcase
 pnpm install
 pnpm dev
 ```
