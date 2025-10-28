@@ -4,6 +4,8 @@ import Cobe from "@/components/Cobe";
 import Gallery from "@/components/Gallery";
 import { siteConfig } from "@/lib/config";
 
+export const revalidate = 3600;
+
 export default function Home() {
   return (
     <>
