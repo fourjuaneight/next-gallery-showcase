@@ -1,11 +1,10 @@
 import "@/app/globals.css";
 
-import { Analytics } from "@vercel/analytics/next";
-import { SpeedInsights } from "@vercel/speed-insights/next";
 import { GeistMono } from "geist/font/mono";
 import { GeistSans } from "geist/font/sans";
 import type { Metadata } from "next";
 
+import { VercelTelemetry } from "@/components/VercelTelemetry";
 import { siteConfig } from "@/lib/config";
 import { cn } from "@/lib/utils";
 
@@ -47,8 +46,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         )}
       >
         {children}
-        <Analytics />
-        <SpeedInsights />
+        <VercelTelemetry />
       </body>
     </html>
   );
